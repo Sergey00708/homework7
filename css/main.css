@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #EEEFF1;
+    font-weight: 400;
+}
+
+h1{
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 79px;
+    margin-bottom: 60px;
+}
+
+h3{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.block{
+    display: inline-block;
+}
+
+/*header*/
+
+.menu .blue{
+    color: #34547A
+}
+
+.first-screen{
+    margin: 79px 0 0 399px;
+}
+
+.menu{
+    max-width: 656px;
+    margin-bottom: 151px;
+}
+
+.menu li{
+    margin-right: 42px;
+}
+
+.menu li:last-child{
+    margin-right: 0;
+}
+
+.menu li a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: black;
+}
+
+
+.design p{
+    margin-bottom: 65px;
+}
+
+.btn{
+    background-color: #34547A;
+    color: #FFFFFF;
+    padding: 20px 41px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    margin-bottom: 141px;
+}
+
+/*about*/
+
+.about{
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.about h3{
+    padding-top: 112px;
+}
+
+.about p{
+    max-width: 540px;
+    margin-left: 690px;
+    padding-bottom: 100px;
+}
+
+/*numbers*/
+
+.numbers{
+    background-color: #34547A;
+    height: 250px;
+    margin-bottom: 100px;
+}
+
+.number_items{
+    max-width: 1071px;
+    margin-left: 409px;
+    padding-top: 100px;
+}
+
+.number_item{
+    max-width: 141px;
+    max-height: 50px;
+    margin-right: 45px;
+}
+
+.number_item:last-child{
+    margin-right: 0;
+}
+
+/*video*/
+
+.video{
+    margin-bottom: 100px;
+}
+
+.video p{
+    text-align: center;
+    margin: 50px 690px 57px 690px;
+    max-width: 540px;
+}
+
+.youtube{
+    width: 1110px;
+    height: 600px;
+    margin-left: 405px;
+}
+
+/*footer*/
+
+.footer{
+    background-color: #34547A;
+    height: 151px;
+}
+
+.footer h5{
+    padding: 50px 0 20px 406px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+}
+
+.footer p{
+    margin-left: 406px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
